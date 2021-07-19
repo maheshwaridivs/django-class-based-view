@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+.DS_Store
+database
+database/
+.idea/
+.idea
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# virtualenv
+.venv
+venv/
+ENV/
+sendgrid.env

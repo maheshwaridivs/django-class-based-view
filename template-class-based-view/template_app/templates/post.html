@@ -1,0 +1,10 @@
+<h3>this is Post file</h3>
+
+{{post.name}}
+{{data}}
+
+<!-- ------------ redirect url -->
+
+<a href="{% url 'go-to-google' %}">Redirect to Google </a>
+
+<a href="{% url 'redirect-task' pk=post.id %}">{{post.name}} </a>
